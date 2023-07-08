@@ -1,7 +1,7 @@
 from builtins import super
 import numpy as np
 import numbers
-from emregistration import EMRegistration
+from CPD.emregistration import EMRegistration
 
 def is_positive_semi_definite(R):
     if not isinstance(R, (np.ndarray, np.generic)):
